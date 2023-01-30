@@ -12,8 +12,8 @@ export const Navigation = () => {
   return (
     <Suspense fallback={null}>
       <BrowserRouter>
-        <div className="main-layout">
-          <nav style={{ overflowY: "hidden" }}>
+        <div className="main-layout" >
+          <nav style={{ overflowY: "hidden", width: '350px', marginRight: '0' }}>
             <div style={{alignItems: 'center', display: 'flex', placeContent: 'center', marginTop: '20px', marginBottom: '20px'}}>
               <img src={react} alt="React Logo" style={{width: '75px', margin: '5px',}}/>
               <img src={plus} alt="+" style={{width: '20px',}}/>
