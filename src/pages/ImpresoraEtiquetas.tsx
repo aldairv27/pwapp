@@ -1,8 +1,12 @@
+import { Col, Row } from "antd";
+
 export const ImpresoraEtiquetas = () => {
     return (
-      <div>
-        <h1>Impresora de etiquetas component</h1>
-      </div>
+      <Row style={{width: '100%'}}>
+          <Col span={24} style={{width: '100%', height: '10vh', placeContent: 'center', display: 'flex',}}>
+            <h1> Impresora de Etiquetas </h1>
+          </Col>
+      </Row>
     );
   };
   
