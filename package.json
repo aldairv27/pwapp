@@ -11,6 +11,8 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "antd": "^5.1.6",
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.8",
     "modern-react-qr-reader": "^1.0.12",
     "next-barcode": "^1.4.0",
     "pokenode-ts": "^1.17.0",
@@ -47,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21"
   }
 }

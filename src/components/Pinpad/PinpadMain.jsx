@@ -37,8 +37,8 @@ const Pinpad = () => {
     }
 
     return (
-        <div className="container mx-auto">
-            <h2 className="text-2xl font-semibold">Pinpad</h2>
+        <div className="container m-8">
+            <h2 className="text-2xl font-semibold mb-6">Pinpad</h2>
             <div className="grid grid-cols-2">
                 <button
                     onClick={connectClick}

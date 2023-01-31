@@ -76,7 +76,7 @@ export const Pokedex = () => {
         <>
         <Row style={{width: '100%'}}>
           <Col span={24} style={{width: '100%', height: '10vh', placeContent: 'center', display: 'flex',}}>
-            <h1> Pokedex! </h1>
+            <h2 className="text-2xl font-semibold mt-6">Pokedex</h2>
           </Col>
           <Col span={24} style={{width: '100%', height: '90vh', placeContent: 'center', display: 'flex',}}>
             <PokedexMain

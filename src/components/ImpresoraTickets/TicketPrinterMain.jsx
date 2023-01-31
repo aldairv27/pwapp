@@ -28,7 +28,7 @@ const TicketPrinter = () => {
     `;
 
   return (
-    <div className='container mx-auto border-gray-200 dark:bg-gray-900 m-4' style={{marginLeft: '25px'}}>
+    <div className='container mx-auto' style={{marginLeft: '25px'}}>
       {contextHolder}
       <h1 className='text-2xl mt-10 m-4'>
         Al presionar el boton situado en la parte inferior se mandará a imprimir una hoja de pruebas a la impresora de tickets.
@@ -38,6 +38,7 @@ const TicketPrinter = () => {
         trigger={() =>
           <Button className='oculto-impresion mt-5 m-4'
             onClick={() => message.loading('Preparando impresión', 2.5)}
+            style={{backgroundColor: 'gray'}}
           >
             Presiona para mandar la prueba a impresion
           </Button>}
