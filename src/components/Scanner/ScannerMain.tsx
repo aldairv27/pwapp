@@ -19,12 +19,12 @@ const ScannerMain = () => {
 
     return (
         <Fragment>
-            <div className="container mx-auto">
-                <Row className="m-4 text-2xl"><h2>CODE-BAR READER</h2></Row>
-                <Row className="m-4"><h5>Utilizando el scanner de codigo de barras haz click en el boton y scanea un codigo de barras</h5></Row>
+            <div className="container m-8">
+                <Row className="text-2xl"><h2>CODE-BAR READER</h2></Row>
+                <Row><h5>Utilizando el scanner de codigo de barras haz click en el boton y scanea un codigo de barras</h5></Row>
 
                 <Row className='flex items-center'>
-                    <Col className="items-center m-4 w-1/5">
+                    <Col className="items-center w-1/5">
                         <Row>
                             <Button
                                 icon={<ScanOutlined />}
@@ -43,7 +43,7 @@ const ScannerMain = () => {
                             </Button>
                         </Row>
                     </Col>
-                    <Col className="items-center m-4">
+                    <Col className="items-center">
                         <Row>
                             {scann ? <ScannerReader /> : qrScann ? <QrScanner /> : <>Selecciona una funcion</>}
                         </Row>

@@ -30,8 +30,8 @@ const CajaMain = () => {
     }
 
     return (
-        <div className='container mx-auto'>
-            <h2 className="text-2xl font-semibold">Cajón de dinero</h2>
+        <div className='container m-8'>
+            <h2 className="text-2xl font-semibold mb-4">Cajón de dinero</h2>
 
             <button
                 onClick={conectarImpresora}
