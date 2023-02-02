@@ -1,8 +1,13 @@
+import { Col, Row } from "antd";
+import ScannerMain from "../components/Scanner/ScannerMain";
+
 export const Scanner = () => {
     return (
-      <div>
-        <h1>Scanner component</h1>
-      </div>
+      <Row style={{width: '100%'}}>
+          <Col span={24} style={{width: '100%', height: '10vh', placeContent: 'center', display: 'flex',}}>
+            <ScannerMain/>
+          </Col>
+      </Row>
     );
   };
   

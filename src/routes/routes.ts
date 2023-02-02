@@ -1,7 +1,6 @@
 
 import { Bascula, Caja, ImpresoraEtiquetas, ImpresoraTickets, Pinpad, Pokedex, Scanner} from "../pages";
 
-
 type JSXComponent = () => JSX.Element;
 
 interface IRoute {
